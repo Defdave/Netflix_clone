@@ -1,0 +1,108 @@
+.profile-screen {
+    height: 100vh;
+    color: #fff;
+}
+
+.profile-screen-body {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 8%;
+    max-width: 800px;
+}
+
+.profile-screen-body > h1 {
+    font-size: 40px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+
+.profile-screen-body h2 {
+    background-color: gray;
+    font-size: 15px;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+.profile-screen-info {
+    display: flex;
+}
+
+.profile-screen-info > img {
+    height: 100px;
+}
+
+.profile-screen-details {
+    color: #fff;
+    margin-left: 25px;
+    flex: 1;
+}
+
+
+.profile-screen-plans {
+    margin-top: 20px;
+}
+
+.profile-screen-plans > h3 {
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+
+.profile-screen-plans > h4 {
+    padding: 10px 0;
+}
+
+.profile-screen-subscribes {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-screen-subscribe {
+    display: flex;
+    border-bottom: 0.1rem solid red;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.profile-screen-subscribe:hover {
+    font-size: 1.5rem;
+}
+
+
+.profile-screen-subscribe h5 {
+    font-size: 16px;
+}
+
+.profile-screen-subscribe-btn {
+    font-size: 1rem;
+    padding: 14px 16px;
+    background-color: rgba(229, 9, 20, .8);
+    color: #fff;
+    cursor: pointer;
+}
+
+.profile-screen-subscribe-btn:hover {
+    background-color: rgba(229, 9, 20, 1);
+}
+
+.profile-screen-current-plan-btn {
+    font-size: 1rem;
+    background-color: rgba(128, 128, 128, 1);
+    padding: 14px 16px;
+    color: #fff;
+}
+
+.profile-screen-signout {
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 5%;
+    padding: 10px 20px;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}

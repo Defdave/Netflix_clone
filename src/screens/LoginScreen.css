@@ -1,0 +1,96 @@
+.login_screen {
+    position: relative;
+    height: 100vh;
+    
+    background-size: cover;
+}
+
+.login_screen_bg {
+    background: url('https://mcdn.wallpapersafari.com/medium/24/74/zgeTuV.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.login_screen_logo {
+    position: fixed;
+    top: 20px;
+    object-fit: contain;
+    width: 140px;
+    left: 20px;
+}
+
+.login_screen_button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+}
+
+.login_screen_gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+}
+
+.login_screen_body {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    z-index: 1;
+}
+
+.login_screen_body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.login_screen_body > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.login_screen_body > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.login_screen_input {
+    margin: 20px;
+}
+
+.login_screen_input > form > input {
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.login_screen_button_get_started {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    background-color: #e50914;
+    cursor: pointer;
+}
